@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="15.21" multi-file="no" uid="simp7298534c652c4e8da66ca94e88a773e2" creation-date="11/21/2026 22:11:01">
+  <meta>
+    <name>(Project)</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>5</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="image" type="Image" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>73</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>28</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>4</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>2</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>19</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-a7f76ac2b2f44b19b367c92b7ae9ae9a" name="" task-id-sequence="0">
+    <working-schedule uid="ws-53ecc7e74873496d9d626e291b570866" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-f22730f847c042d89861793c9a9e1067" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-be74ed3b0c1e46b7a12c719f79d6d369" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Set&lt;int&gt;" name="Set&lt;int&gt;" />
+        <type id="List&lt;MenuCategory&gt;" name="List&lt;MenuCategory&gt;" />
+        <type id="void" name="void" />
+        <type id="Class:4593a2e5aff047fc8d22a906b5812f25" name="MenuItem" class-ref="4593a2e5aff047fc8d22a906b5812f25" />
+        <type id="int" name="int" />
+        <type id="Class:772b4e05a5b54278954c0048f56bb6eb" name="DataRepository" class-ref="772b4e05a5b54278954c0048f56bb6eb" />
+        <type id="Class:2698648da182471c916a831a1f2425d8" name="FavoritesManager" class-ref="2698648da182471c916a831a1f2425d8" />
+        <type id="List&lt;MenuItem&gt;" name="List&lt;MenuItem&gt;" />
+        <type id="Class:c236b2e0b6a0438ca3f8f770ed79a1ad" name="MenuCategory" class-ref="c236b2e0b6a0438ca3f8f770ed79a1ad" />
+        <type id="double" name="double" />
+        <type id="List&lt;Restaurant&gt;" name="List&lt;Restaurant&gt;" />
+        <type id="Class:bda93399cdfa4708a57eaf2f6bb30550" name="Restaurant" class-ref="bda93399cdfa4708a57eaf2f6bb30550" />
+        <type id="boolean" name="boolean" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="402368f6839b49dbb3e94ccbb63aa897" cid="PROP068" type="property" owner="ef694c9356bc4455807b1aef09641739" creator="" creation-date="11/21/2026 23:11:22" visibility="undefined">
+      <structural-feature multiplicity="0..*" type="Restaurant" type-id="Class:bda93399cdfa4708a57eaf2f6bb30550" />
+    </item>
+    <item id="a8cc70dc3f7d4e9a98086bd9202d4eb7" cid="PROP019" type="property" name="1" owner="579d212de2654552aae309a2d03369a0" creator="" creation-date="11/21/2026 23:04:59" visibility="undefined">
+      <structural-feature type="Restaurant" type-id="Class:bda93399cdfa4708a57eaf2f6bb30550" />
+      <property aggregation="composite" />
+    </item>
+    <item id="6011dfb24857439599c79bf79cd963e0" cid="PROP066" type="property" owner="f637d2b6a8d54267931714bae76e7e25" creator="" creation-date="11/21/2026 23:07:56" visibility="undefined">
+      <structural-feature multiplicity="1..*" type="MenuItem" type-id="Class:4593a2e5aff047fc8d22a906b5812f25" />
+    </item>
+    <item id="3d898ce457f34573ad8e51737dbd604d" cid="PROP072" type="property" owner="9e60a51753db404d9b68900c9a14c2ae" creator="" creation-date="11/21/2026 23:13:24" visibility="undefined">
+      <structural-feature type="Restaurant" type-id="Class:bda93399cdfa4708a57eaf2f6bb30550" />
+    </item>
+    <item id="4bc94bbcfb0248fc88cdd3372c29e6fe" cid="PROP067" type="property" name="1" owner="ef694c9356bc4455807b1aef09641739" creator="" creation-date="11/21/2026 23:11:22" visibility="undefined">
+      <structural-feature type="DataRepository" type-id="Class:772b4e05a5b54278954c0048f56bb6eb" />
+      <property aggregation="shared" />
+    </item>
+    <item id="87477dbd361641ae9177101b066300c7" cid="PROP020" type="property" owner="579d212de2654552aae309a2d03369a0" creator="" creation-date="11/21/2026 23:04:59" visibility="private">
+      <structural-feature multiplicity="1..*" type="MenuCategory" type-id="Class:c236b2e0b6a0438ca3f8f770ed79a1ad" />
+    </item>
+    <item id="76c194e59c5249a7a9b25acfcbb191ff" cid="PROP071" type="property" owner="9e60a51753db404d9b68900c9a14c2ae" creator="" creation-date="11/21/2026 23:13:24" visibility="undefined">
+      <structural-feature type="FavoritesManager" type-id="Class:2698648da182471c916a831a1f2425d8" />
+    </item>
+    <item id="8c3b7133140241e3b334cc9f531f3491" cid="PROP065" type="property" name="1" owner="f637d2b6a8d54267931714bae76e7e25" creator="" creation-date="11/21/2026 23:07:56" visibility="undefined">
+      <structural-feature type="MenuCategory" type-id="Class:c236b2e0b6a0438ca3f8f770ed79a1ad" />
+      <property aggregation="composite" />
+    </item>
+    <item id="5747bb7da95645d8ad55fa3d42506552" cid="PROP018" type="property" name="favoriteRestaurantIds" owner="2698648da182471c916a831a1f2425d8" creator="" creation-date="11/21/2026 23:00:47" visibility="private">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Set&lt;int&gt;" type-id="Set&lt;int&gt;" />
+    </item>
+  </items>
+  <models>
+    <model id="p907e12b95d014bb98fb8e1b7350c462f_621352798" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/21/2026 22:11:18</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pb94c32e23a8649aea10a8395a2cbb1dc_958460272" name="ClassDiagram2" order-index="2" overview-order-index="0" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-158,67" zoom="0.6">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/21/2026 22:33:21</creation-date>
+          <change-date>11/21/2026 23:13:24</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="32a0ec33d63f4393b97bf728d0737f58" cid="PROP017" type="property" name="restaurants" owner="772b4e05a5b54278954c0048f56bb6eb" creator="" creation-date="11/21/2026 22:54:28" visibility="private">
+            <structural-feature type="List&lt;Restaurant&gt;" type-id="List&lt;Restaurant&gt;" />
+          </item>
+          <item id="2698648da182471c916a831a1f2425d8" cid="C005" type="class" name="FavoritesManager" style-class="@OwnerAlternate" creator="" creation-date="11/21/2026 22:58:04" visibility="undefined">
+            <owned-items />
+            <style class="@OwnerAlternate" />
+            <attributes>
+              <attribute id="a036b62c556ad45b2a4e6e0999f68ca95306" cid="PROP018" name="favoriteRestaurantIds" creation-date="11/21/2026 23:00:47" property-ref="5747bb7da95645d8ad55fa3d42506552" />
+            </attributes>
+            <operations>
+              <operation id="o8cb5799e7abe41ca821a504383a4c70f339" cid="OP015" name="toggleFavorite" creation-date="11/21/2026 22:58:39" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p516e171b12b24e96a6440715afd0f2c1" name="restaurantId" type="int" type-id="int" creation-date="11/21/2026 22:58:44" />
+                </parameters>
+              </operation>
+              <operation id="o3c110e67cd794d69914e1a1aeb6afa53251" cid="OP016" name="isFavorite" creation-date="11/21/2026 22:59:04" type="boolean" type-id="boolean" visibility="public">
+                <parameters>
+                  <parameter id="p8fa77dcd42984b9d9834eb28eb082765" name="restaurantId" type="int" type-id="int" creation-date="11/21/2026 22:59:10" />
+                </parameters>
+              </operation>
+              <operation id="o32f998eca33448ebaa9abde1154b37ac786" cid="OP017" name="getFavoriteIds" creation-date="11/21/2026 22:59:23" type="Set&lt;int&gt;" type-id="Set&lt;int&gt;" visibility="public" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="8bb7033d28c149e3a72ed2fe71b83ead" cid="PROP007" type="property" name="image" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:41:11" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="376cff212ce849319c83ddccd5c8c9f5" cid="PROP001" type="property" name="id" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:37:01" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="4130e4ec7b14448a972ef877844d24d3" cid="PROP015" type="property" name="description" owner="4593a2e5aff047fc8d22a906b5812f25" creator="" creation-date="11/21/2026 22:51:54" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="4593a2e5aff047fc8d22a906b5812f25" cid="C003" type="class" name="MenuItem" creator="" creation-date="11/21/2026 22:51:09" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a9774ab76413a49a3917b4687d617ba1b689" cid="PROP014" name="name" creation-date="11/21/2026 22:51:32" property-ref="cf1a88b709c2486bb93790fa2ee0cd1e" />
+              <attribute id="a02f98dee79fd40a88b1163c6b7523343360" cid="PROP015" name="description" creation-date="11/21/2026 22:51:54" property-ref="4130e4ec7b14448a972ef877844d24d3" />
+              <attribute id="a5a26f06529e44de4adff0face58da0ef681" cid="PROP016" name="price" creation-date="11/21/2026 22:51:57" property-ref="0564bcb196f34e4497a347f9b65fea83" />
+            </attributes>
+            <operations>
+              <operation id="o5f82269d8e39450e8d8c8b5826b365c6689" cid="OP006" name="getName" creation-date="11/21/2026 22:52:44" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o132bc905615a4e69b2905f2a813f79c4121" cid="OP007" name="getDescription" creation-date="11/21/2026 22:52:50" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="of72a5230b98e4cc7bf098779fe646139649" cid="OP008" name="getPrice" creation-date="11/21/2026 22:52:57" type="double" type-id="double" visibility="public" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="1f1b64e0b9c4471887819ab6577887b4" cid="PROP011" type="property" name="menu" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:41:52" visibility="private">
+            <structural-feature type="List&lt;MenuCategory&gt;" type-id="List&lt;MenuCategory&gt;" />
+          </item>
+          <item id="9e60a51753db404d9b68900c9a14c2ae" cid="REL027" type="relationship" name="references by id" creator="" creation-date="11/21/2026 23:13:24" from="2698648da182471c916a831a1f2425d8" to="bda93399cdfa4708a57eaf2f6bb30550" visibility="package">
+            <owned-items />
+            <relation from="2698648da182471c916a831a1f2425d8" to="bda93399cdfa4708a57eaf2f6bb30550" derived="false">
+              <start-role id="umlar-d6946c56-570b-4892-898c-d37bad605271" name="" navigability="" association-type="association" visibility="undefined" property-ref="76c194e59c5249a7a9b25acfcbb191ff" />
+              <end-role id="umlar-c0cc99e7-24b1-4b5b-90b4-0019d4235719" name="" navigability="yes" association-type="association" visibility="undefined" property-ref="3d898ce457f34573ad8e51737dbd604d" />
+            </relation>
+          </item>
+          <item id="579d212de2654552aae309a2d03369a0" cid="REL001" type="relationship" name="contains" creator="" creation-date="11/21/2026 23:04:59" from="bda93399cdfa4708a57eaf2f6bb30550" to="c236b2e0b6a0438ca3f8f770ed79a1ad" visibility="package">
+            <owned-items />
+            <relation from="bda93399cdfa4708a57eaf2f6bb30550" to="c236b2e0b6a0438ca3f8f770ed79a1ad" derived="false">
+              <start-role id="umlar-1a5d4111-b616-4273-b524-4ff8620762f8" name="" navigability="" association-type="composition" visibility="private" property-ref="a8cc70dc3f7d4e9a98086bd9202d4eb7" />
+              <end-role id="umlar-50cec259-ed15-4647-baec-2285d7b0ad77" name="" navigability="" association-type="association" visibility="private" property-ref="87477dbd361641ae9177101b066300c7" />
+            </relation>
+          </item>
+          <item id="ef694c9356bc4455807b1aef09641739" cid="REL025" type="relationship" name="manages" creator="" creation-date="11/21/2026 23:11:22" from="772b4e05a5b54278954c0048f56bb6eb" to="bda93399cdfa4708a57eaf2f6bb30550" visibility="package">
+            <owned-items />
+            <relation from="772b4e05a5b54278954c0048f56bb6eb" to="bda93399cdfa4708a57eaf2f6bb30550" derived="false">
+              <start-role id="umlar-48bc9178-7d50-47b9-bb73-47b9dc0a77e4" name="" navigability="" association-type="aggregation" visibility="undefined" property-ref="4bc94bbcfb0248fc88cdd3372c29e6fe" />
+              <end-role id="umlar-e62b934b-5b01-43fc-8062-8369f31a53b0" name="" navigability="" association-type="association" visibility="undefined" property-ref="402368f6839b49dbb3e94ccbb63aa897" />
+            </relation>
+          </item>
+          <item id="9ecd9f0f59c04e639f23bcb21a926174" cid="PROP013" type="property" name="items" owner="c236b2e0b6a0438ca3f8f770ed79a1ad" creator="" creation-date="11/21/2026 22:48:57" visibility="private">
+            <structural-feature type="List&lt;MenuItem&gt;" type-id="List&lt;MenuItem&gt;" />
+          </item>
+          <item id="b5a3700ad3174907b6064f632484feb8" cid="PROP004" type="property" name="rating" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:40:48" visibility="private">
+            <structural-feature type="double" type-id="double" />
+          </item>
+          <item id="0564bcb196f34e4497a347f9b65fea83" cid="PROP016" type="property" name="price" owner="4593a2e5aff047fc8d22a906b5812f25" creator="" creation-date="11/21/2026 22:51:57" visibility="private">
+            <structural-feature type="double" type-id="double" />
+          </item>
+          <item id="2ca64dce12bc4c87b706ebeefd7b4a01" cid="PROP005" type="property" name="ratingCount" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:40:56" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="772b4e05a5b54278954c0048f56bb6eb" cid="C004" type="class" name="DataRepository" creator="" creation-date="11/21/2026 22:53:54" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a1dd015db3ea74d7197a56f953097d6f1545" cid="PROP017" name="restaurants" creation-date="11/21/2026 22:54:28" property-ref="32a0ec33d63f4393b97bf728d0737f58" />
+            </attributes>
+            <operations>
+              <operation id="oe04a67410b1e4ce2b8ad9f12c922d812186" cid="OP009" name="loadFromJson" creation-date="11/21/2026 22:54:48" type="void" type-id="void" visibility="public" />
+              <operation id="o659e198a9a1449718783165eea4b1133545" cid="OP010" name="getAll" creation-date="11/21/2026 22:54:54" type="List&lt;Restaurant&gt;" type-id="List&lt;Restaurant&gt;" visibility="public" />
+              <operation id="oba71824830a649878e35939f611abfb833" cid="OP011" name="getRestaurantById" creation-date="11/21/2026 22:55:01" type="Restaurant" type-id="Class:bda93399cdfa4708a57eaf2f6bb30550" visibility="public">
+                <parameters>
+                  <parameter id="p37aabbd14c744c71bbb54ebc179aa11e" name="id" type="int" type-id="int" creation-date="11/21/2026 22:56:01" />
+                </parameters>
+              </operation>
+              <operation id="oecfc37caae8c4ea2b4b3e624a259f174698" cid="OP012" name="search" creation-date="11/21/2026 22:55:06" type="List&lt;Restaurant&gt;" type-id="List&lt;Restaurant&gt;" visibility="public">
+                <parameters>
+                  <parameter id="p04070ab5afea4e598be6bdac76aaacb6" name="query" type="String" type-id="Uml.String" creation-date="11/21/2026 22:56:21" />
+                </parameters>
+              </operation>
+              <operation id="od300bd7290624022b3a663f28f7efe47873" cid="OP013" name="filterByCategory" creation-date="11/21/2026 22:55:17" type="List&lt;Restaurant&gt;" type-id="List&lt;Restaurant&gt;" visibility="public">
+                <parameters>
+                  <parameter id="pa2b4bc99e67c42e7b79667b3fc24c6bd" name="category" type="String" type-id="Uml.String" creation-date="11/21/2026 22:56:35" />
+                </parameters>
+              </operation>
+              <operation id="of85341673af24ae084a055a4ac00ae3d593" cid="OP014" name="sortByRating" creation-date="11/21/2026 22:55:27" type="List&lt;Restaurant&gt;" type-id="List&lt;Restaurant&gt;" visibility="public">
+                <parameters>
+                  <parameter id="p49de571710f046b2bec36d3a3c3a987f" name="ascending" type="boolean" type-id="boolean" creation-date="11/21/2026 22:56:49" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="f072efb106c348408b02bbf6e57f0850" cid="PROP008" type="property" name="facebookUrl" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:41:20" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="bacac65efec341e1be4ed7633328f1e4" cid="PROP006" type="property" name="address" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:41:02" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="e2027dffae2c4de6b9ad549137b5beca" cid="PROP012" type="property" name="categoryName" owner="c236b2e0b6a0438ca3f8f770ed79a1ad" creator="" creation-date="11/21/2026 22:48:47" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="f637d2b6a8d54267931714bae76e7e25" cid="REL024" type="relationship" name="contains" creator="" creation-date="11/21/2026 23:07:56" from="c236b2e0b6a0438ca3f8f770ed79a1ad" to="4593a2e5aff047fc8d22a906b5812f25" visibility="package">
+            <owned-items />
+            <relation from="c236b2e0b6a0438ca3f8f770ed79a1ad" to="4593a2e5aff047fc8d22a906b5812f25" derived="false">
+              <start-role id="umlar-947296ed-64b2-4946-a4d2-88d14da299cb" name="" navigability="" association-type="composition" visibility="undefined" property-ref="8c3b7133140241e3b334cc9f531f3491" />
+              <end-role id="umlar-b68e1e5e-683b-4ea2-881c-61c8967c7690" name="" navigability="" association-type="association" visibility="undefined" property-ref="6011dfb24857439599c79bf79cd963e0" />
+            </relation>
+          </item>
+          <item id="9b4fefbfbbcb44bea114d49c4d58bad0" cid="PROP002" type="property" name="name" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:40:27" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="bda93399cdfa4708a57eaf2f6bb30550" cid="C001" type="class" name="Restaurant" creator="" creation-date="11/21/2026 22:36:37" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="aa5474c21074c465baca3d9978365ddec960" cid="PROP001" name="id" creation-date="11/21/2026 22:37:01" property-ref="376cff212ce849319c83ddccd5c8c9f5" />
+              <attribute id="a0fa9a3e1eb9347c2b9e42e6170598e9a66" cid="PROP002" name="name" creation-date="11/21/2026 22:40:27" property-ref="9b4fefbfbbcb44bea114d49c4d58bad0" />
+              <attribute id="a31b654da69924eaba5033a6f49932f2c944" cid="PROP003" name="category" creation-date="11/21/2026 22:40:30" property-ref="aad838a4270d484ca842d2f1cdf47e92" />
+              <attribute id="a9e94d171711f4a459cba3965bcfaa713141" cid="PROP004" name="rating" creation-date="11/21/2026 22:40:48" property-ref="b5a3700ad3174907b6064f632484feb8" />
+              <attribute id="a96ba411c1eb9402ab5d10aa9339818be723" cid="PROP005" name="ratingCount" creation-date="11/21/2026 22:40:56" property-ref="2ca64dce12bc4c87b706ebeefd7b4a01" />
+              <attribute id="ad42caf6af7e24f7e9c89a4f60c42b3a5183" cid="PROP006" name="address" creation-date="11/21/2026 22:41:02" property-ref="bacac65efec341e1be4ed7633328f1e4" />
+              <attribute id="a050bb7bf96634efd8ac473d3cde9cc1b782" cid="PROP007" name="image" creation-date="11/21/2026 22:41:11" property-ref="8bb7033d28c149e3a72ed2fe71b83ead" />
+              <attribute id="a296f765397274df884a9277e21682aca856" cid="PROP008" name="facebookUrl" creation-date="11/21/2026 22:41:20" property-ref="f072efb106c348408b02bbf6e57f0850" />
+              <attribute id="a6ec6c0cccd034e9f94d4fc04409dfd1722" cid="PROP009" name="instagramUrl" creation-date="11/21/2026 22:41:28" property-ref="21be41b834a141599afdef6f5605086a" />
+              <attribute id="aca21843918fc4531855f894a4e4ea19b94" cid="PROP010" name="mapUrl" creation-date="11/21/2026 22:41:40" property-ref="31153e44c79f4177a1dc1142eef25196" />
+              <attribute id="a231cd06d890e4ae5839add9ce2947eeb715" cid="PROP011" name="menu" creation-date="11/21/2026 22:41:52" property-ref="1f1b64e0b9c4471887819ab6577887b4" />
+            </attributes>
+            <operations>
+              <operation id="occ43126bd94746b18b0c185b1850790693" cid="OP001" name="getId" creation-date="11/21/2026 22:44:00" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o792d495c105d47f9a0a5dc905c26b0ad59" cid="OP002" name="getName" creation-date="11/21/2026 22:44:54" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o7abb98e1841144b48a3374246c2a5873324" cid="OP003" name="getMenu" creation-date="11/21/2026 22:45:07" type="List&lt;MenuCategory&gt;" type-id="List&lt;MenuCategory&gt;" visibility="public" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="31153e44c79f4177a1dc1142eef25196" cid="PROP010" type="property" name="mapUrl" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:41:40" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="aad838a4270d484ca842d2f1cdf47e92" cid="PROP003" type="property" name="category" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:40:30" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="c236b2e0b6a0438ca3f8f770ed79a1ad" cid="C002" type="class" name="MenuCategory" creator="" creation-date="11/21/2026 22:47:12" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a9ca1899474dc41848055926028f6a9a397" cid="PROP012" name="categoryName" creation-date="11/21/2026 22:48:47" property-ref="e2027dffae2c4de6b9ad549137b5beca" />
+              <attribute id="a25b36b23fd634f559c41a4be2a5db9cb144" cid="PROP013" name="items" creation-date="11/21/2026 22:48:57" property-ref="9ecd9f0f59c04e639f23bcb21a926174" />
+            </attributes>
+            <operations>
+              <operation id="o25d1de334a6b453595a9052c0c5a6c8e209" cid="OP004" name="getCategoryName" creation-date="11/21/2026 22:49:58" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o2ab4f584238a4603bb27cea4cbadf8e9170" cid="OP005" name="getItems" creation-date="11/21/2026 22:50:07" type="List&lt;MenuItem&gt;" type-id="List&lt;MenuItem&gt;" visibility="public" />
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="21be41b834a141599afdef6f5605086a" cid="PROP009" type="property" name="instagramUrl" owner="bda93399cdfa4708a57eaf2f6bb30550" creator="" creation-date="11/21/2026 22:41:28" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="cf1a88b709c2486bb93790fa2ee0cd1e" cid="PROP014" type="property" name="name" owner="4593a2e5aff047fc8d22a906b5812f25" creator="" creation-date="11/21/2026 22:51:32" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+        </abstract-items>
+        <layer id="b8b3c1c8001744e6a698b52f79acc9d0" name="Default" visible="true" enabled="true" locked="false">
+          <item id="bda93399cdfa4708a57eaf2f6bb30550" iid="f90d1977664f4def8519dc9a8a8f4cdc" show-fields="true" creation-date="11/21/2026 22:36:37" order-index="0" type="entity">
+            <layout ax="341" ay="182" awidth="221" aheight="305" x="341" y="182" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="c236b2e0b6a0438ca3f8f770ed79a1ad" iid="b97cdcfe186c4dc19ffd7704d8343cc6" show-fields="true" creation-date="11/21/2026 22:47:12" order-index="1" type="entity">
+            <layout ax="355" ay="629" awidth="193" aheight="115" x="355" y="629" width="140" height="114" />
+            <classifier />
+            <class />
+          </item>
+          <item id="4593a2e5aff047fc8d22a906b5812f25" iid="d8c8397a8dfe4f6c9b4d3d5a6770efee" show-fields="true" creation-date="11/21/2026 22:51:09" order-index="2" type="entity">
+            <layout ax="370" ay="886" awidth="163" aheight="153" x="370" y="886" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="772b4e05a5b54278954c0048f56bb6eb" iid="3510f457a9e1490c911c04666a98daf2" show-fields="true" creation-date="11/21/2026 22:53:54" order-index="3" type="entity">
+            <layout ax="-174" ay="248.5" awidth="336" aheight="172" x="-174" y="248.5" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="2698648da182471c916a831a1f2425d8" iid="0e0f1ad1fcec44de9d95ffcde7ddff94" show-fields="true" creation-date="11/21/2026 22:58:04" order-index="4" type="entity">
+            <layout ax="741" ay="277" awidth="249" aheight="115" x="741" y="277" width="140" height="115" />
+            <classifier />
+            <class />
+          </item>
+          <item id="579d212de2654552aae309a2d03369a0" iid="a6fcb81d1229445390cc69bb86d6a3fd" creation-date="11/21/2026 23:04:59" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="452" y1="487" x2="452" y2="629" start-border-pos="0.6244343891402715" end-border-pos="0.12564766839378239" start-local-pos="111" end-local-pos="97" name-position="0,20">
+              <points>
+                <point x="452" y="487" />
+                <point x="452" y="629" />
+              </points>
+            </layout>
+            <relation from="bda93399cdfa4708a57eaf2f6bb30550" from-iid="f90d1977664f4def8519dc9a8a8f4cdc" to="c236b2e0b6a0438ca3f8f770ed79a1ad" to-iid="b97cdcfe186c4dc19ffd7704d8343cc6" />
+          </item>
+          <item id="f637d2b6a8d54267931714bae76e7e25" iid="fc7c310b1d0942078d9fa25d02a7c5c7" creation-date="11/21/2026 23:07:56" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-16" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="452" y1="744" x2="452" y2="886" start-border-pos="0.6243523316062176" end-border-pos="0.12576687116564417" start-local-pos="97" end-local-pos="82" name-position="0,20">
+              <points>
+                <point x="452" y="744" />
+                <point x="452" y="886" />
+              </points>
+            </layout>
+            <relation from="c236b2e0b6a0438ca3f8f770ed79a1ad" from-iid="b97cdcfe186c4dc19ffd7704d8343cc6" to="4593a2e5aff047fc8d22a906b5812f25" to-iid="d8c8397a8dfe4f6c9b4d3d5a6770efee" />
+          </item>
+          <item id="ef694c9356bc4455807b1aef09641739" iid="44eee4cf1c6e4dc184901c0ce73dea35" creation-date="11/21/2026 23:11:22" order-index="7" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,21.5" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="162" y1="334" x2="341" y2="334" start-border-pos="0.3742732558139535" end-border-pos="0.8754098360655738" start-local-pos="85.5" end-local-pos="152" name-position="0,20">
+              <points>
+                <point x="162" y="334" />
+                <point x="341" y="334" />
+              </points>
+            </layout>
+            <relation from="772b4e05a5b54278954c0048f56bb6eb" from-iid="3510f457a9e1490c911c04666a98daf2" to="bda93399cdfa4708a57eaf2f6bb30550" to-iid="f90d1977664f4def8519dc9a8a8f4cdc" />
+          </item>
+          <item id="9e60a51753db404d9b68900c9a14c2ae" iid="76dad861e74d42be881e6bb5087b08cc" creation-date="11/21/2026 23:13:24" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="741" y1="334" x2="562" y2="334" start-border-pos="0.875" end-border-pos="0.37459016393442623" start-local-pos="57.5" end-local-pos="152" name-position="0,20">
+              <points>
+                <point x="741" y="334" />
+                <point x="562" y="334" />
+              </points>
+            </layout>
+            <relation from="2698648da182471c916a831a1f2425d8" from-iid="0e0f1ad1fcec44de9d95ffcde7ddff94" to="bda93399cdfa4708a57eaf2f6bb30550" to-iid="f90d1977664f4def8519dc9a8a8f4cdc" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
